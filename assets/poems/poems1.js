@@ -1,6 +1,106 @@
 //Public
 export default class Poems1 {
 
+    nowIdaho = `
+    From where I stand </br>
+    Beneath the sky’s southeastern sun and water-tower, </br>
+    Inline with a few riddles of time </br>
+    Before travel was banned, and </br>
+    Outlaws roaming dirty-wild in masks and spurs </br>
+    With gallant horses fierce in battle </br>
+    Protecting monolithic foundations at the Temple of Jupiter </br>
+    To praise Athena and the much older sun deity Shamash, </br>
+    Lived a tribe, in the deserts of now Idaho. </br>
+    Happy people, doing their best to survive. </br>
+    `
+
+    valiantAndOtherwise = `
+    There will be a tomorrow </br>
+    Until our consciousness </br>
+    Melts into flowers, and mud </br>
+    Cascading down a river with </br>
+    Red-brown canyon walls and birds circling to land </br>
+    Before night scares them from the sky. </br>
+    Did he want a watery grave </br>
+    When twisting currents took his final breath, or </br>
+    Was it his reward for so many efforts, </br>
+    Valiant and otherwise? </br>
+    Tonight we danced to the music and silence </br>
+    Me, and all my other selves </br>
+    Laughing, at the wonder of it all, </br>
+    My soul glowing </br>
+    Brighter than distant stars in the dark.
+    `
+
+    asteroidsOrbit = `
+    There’s gravel in my gut </br>
+    Aseity is my form </br>
+    Asteroids orbit my Angkor Wat voice </br>
+    Fortify, multiply, resupply... </br>
+    Demystify the horrible events that await us </br>
+    As diversion from the truth— </br>
+    Powerful financial terrorists and spies </br>
+    Undermine capitalism, our freedoms </br>
+    In their ravenous lust for power </br>
+    They print endless amounts of money. </br>
+    Financial terrorists enslave all </br>
+    With lockdowns and masks </br>
+    For the disease created in a lab and unleashed upon us. </br>
+    What if the world is not as they describe? </br>
+    Younger Dryas caused our social amnesia </br>
+    From those that lived before us. </br>
+    Bitcoin provides hope for a better future! </br>
+    This scarce and beautiful digital money </br>
+    Removes the root source of their despotic power— supply. </br>
+    A just society requires not using fiat fake money! </br>
+    End the madness of vile centralized banking— </br>
+    Fewer bombs will drop from the sky. </br>
+    How will we be remembered, if at all? </br>
+    Get ready for their new monetary paradigm, </br>
+    Doppler reveals it’s very near.
+    `
+
+    dancingSilently = `
+    Sitting beside the black diagonals of the rubber doormat </br>
+    Is a pair of Chaco's in the dirt </br>
+    The sandal straps, green and blue, rigid in place </br>
+    Waiting patiently for the next step </br>
+    Down a well-maintained USFS gravel road, around </br>
+    Twenty meters from where I'm parked, camping </br>
+    Alone, except for the varied calls of passing birds, and </br>
+    In the distance, a fire lookout tower, whose attendant, I hope </br>
+    Greatly appreciates the hospitality of their view. </br>
+    I'm on an adventure to the Malhuer National Forest </br>
+    To escape the low elevations of August, to isolate </br>
+    And to read, observe, consider, and reflect— </br>
+    Some of which are things a chess player ought to do before every move. </br>
+    It's been a peaceful experience, living </br>
+    In this pine-scented Central Oregon mountain air </br>
+    And I have enjoyed a feeling that everything is okay, will be okay... </br>
+    The pastel horizon dancing silently into the evening dark.</br>
+    `
+
+    memoriesOfAnotherTime = `
+    Here are the desert grasses </br>
+    Waving easterly in the Wyoming high-plateau breeze </br>
+    Mid-summer snow-packed Teton peaks carving half the horizon </br>
+    Light flashing gold purple wildflowers </br>
+    And perfectly healthy colored sage. </br>
+    It's Warren Bridge freedom at the Green River stream— </br>
+    Fisherman, rafting, antelope grazing </br>
+    Borges poetry, metaphysics, Java server-side logic </br>
+    Paneer tikka masala, almonds, plenty of water </br>
+    And importantly, no distractions from iPhone bombardment. </br>
+    Along with Isidoro Suárez </br>
+    We will all someday be desert dust, </br>
+    And glory— </br>
+    Memories of another time. </br>
+    I choose to be present here now </br>
+    Alone in this serene, peaceful desert. </br>
+    Hello to the world, and </br>
+    Thank you for today.
+    `
+
     nationalEmpire = `
     Hungry and afraid they soldiered onward </br>
     Finding peace in the simplest of things— </br>
@@ -615,6 +715,11 @@ export default class Poems1 {
     poems1() {
         let data =
             [
+                { id: "now-idaho", img: "nowIdaho.jpg", title: "Now Idaho", poem: this.nowIdaho },
+                { id: "valiant-and-otherwise", img: "valiantAndOtherwise.jpg", title: "Valiant and Otherwise", poem: this.valiantAndOtherwise },
+                { id: "asteroids-orbit", img: "asteroidsOrbit.jpg", title: "Asteroids Orbit", poem: this.asteroidsOrbit },
+                { id: "dancing-silently", img: "dancingSilently.jpg", title: "Dancing Silently", poem: this.dancingSilently },
+                { id: "memories-of-another-time", img: "memoriesOfAnotherTime.jpg", title: "Memories of Another Time", poem: this.memoriesOfAnotherTime },
                 { id: "national-empire", img: "nationalEmpire.jpg", title: "National Empire", poem: this.nationalEmpire },
                 { id: "sans-anesthesia", img: "sansAnesthesia.jpg", title: "Sans Anesthesia", poem: this.sansAnesthesia },
                 { id: "missteps-of-good-intentions", img: "misstepsOfGoodIntentions.jpg", title: "Missteps of Good Intentions", poem: this.misstepsOfGoodIntentions },
