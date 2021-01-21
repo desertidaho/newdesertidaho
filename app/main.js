@@ -1,11 +1,9 @@
 import PoemsController from "./components/poems/poemsController.js";
 
-let about = document.querySelector('#about')
-
 class App {
   constructor() {
     this.controllers = {
-      poemsController: new PoemsController(about)
+      poemsController: new PoemsController()
     }
   }
 }

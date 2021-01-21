@@ -75,7 +75,13 @@ body {
 }
 
 .book-buttons {
-  margin-top: 9vh;
+  margin-top: 5.3vh;
+}
+
+.main-amazon-btn,
+.main-btc-btn {
+  padding-left: 1vw !important;
+  padding-right: 1vw !important;
 }
 
 .btn,
@@ -187,6 +193,10 @@ footer {
     margin: 0 0 0 0.7rem;
   }
 
+  .card {
+  cursor: none;
+  }
+
   h4 {
     font-size: 1.0rem;
   }
@@ -242,6 +252,16 @@ footer {
     padding: 0.65vh 4.6vw 0.65vh 4.6vw !important;
   }
 
+  .fa-amazon {
+    margin-top: 1vh !important;
+    margin-left: 1.5vw !important;
+  }
+
+  .main-btc-btn {
+    padding-left: 4.5vw !important;
+    padding-right: 4.5vw !important;
+  }
+
   .book-buttons {
     margin-top: 2vh;
   }
@@ -252,6 +272,14 @@ footer {
 
   .card-columns {
     column-count: 1;
+  }
+
+  .modal {
+    max-width: 95vw !important;
+  }
+
+  .card {
+  cursor: none;
   }
 
   p {

@@ -1,6 +1,6 @@
 //Public
 export default class Poems1 {
-    
+
     nationalEmpire = `
     Hungry and afraid they soldiered onward </br>
     Finding peace in the simplest of things— </br>
@@ -613,46 +613,46 @@ export default class Poems1 {
     `
 
     poems1() {
-        let data = 
-        [
-            {id: "national-empire", img: "nationalEmpire.jpg", title: "National Empire", poem: this.nationalEmpire},
-            {id: "sans-anesthesia", img: "sansAnesthesia.jpg", title: "Sans Anesthesia", poem: this.sansAnesthesia},
-            {id: "missteps-of-good-intentions", img: "misstepsOfGoodIntentions.jpg", title: "Missteps of Good Intentions", poem: this.misstepsOfGoodIntentions},
-            {id: "false-horizon", img: "falseHorizon.jpg", title: "False Horizon", poem: this.falseHorizon},
-            {id: "here-before", img: "hereBefore.jpg", title: "Here Before", poem: this.hereBefore},
-            {id: "to-care", img: "toCare.jpg", title: "To Care", poem: this.toCare},
-            {id: "chaos-of-ripples", img: "chaosOfRipples.jpg", title: "Chaos of Ripples", poem: this.chaosOfRipples},
-            {id: "crippled-in-spirit", img: "crippledInSpirit.jpg", title: "Crippled in Spirit", poem: this.crippledInSpirit},
-            {id: "primordial-routine", img: "primordialRoutine.jpg", title: "Primordial Routine", poem: this.primordialRoutine},
-            {id: "a-beautiful-life", img: "aBeautifulLife.jpg", title: "A Beautiful Life", poem: this.aBeautifulLife},
-            {id: "question-time", img: "questionTime.jpg", title: "Question Time", poem: this.questionTime},
-            {id: "flaubertian-struggle", img: "flaubertianStruggle.jpg", title: "Flaubertian Struggle", poem: this.flaubertianStruggle},
-            {id: "social-amnesia", img: "socialAmnesia.jpg", title: "Social Amnesia", poem: this.socialAmnesia},
-            {id: "past-present", img: "pastPresent.jpg", title: "Past Present", poem: this.pastPresent},
-            {id: "tyranny-afoot", img: "tyrannyAfoot.jpg", title: "Tyranny Afoot", poem: this.tyrannyAfoot},
-            {id: "my-grandfathers-shop", img: "myGrandfathersShop.jpg", title: "My Grandfather's Shop", poem: this.myGrandfathersShop},
-            {id: "trespass-in-its-resplendence", img: "trespassInItsResplendence.jpg", title: "Trespass in its Resplendence", poem: this.trespassInItsResplendence},
-            {id: "its-a-choice-to-be-kind", img: "itsAChoiceToBeKind.jpg", title: "It's a Choice to be Kind", poem: this.itsAChoiceToBeKind},
-            {id: "a-man-of-courage", img: "aManOfCourage.jpg", title: "A Man of Courage", poem: this.aManOfCourage},
-            {id: "began-to-drift", img: "beganToDrift.jpg", title: "Began to Drift", poem: this.beganToDrift},
-            {id: "symphony-of-aliveness", img: "symphonyOfAliveness.jpg", title: "Symphony of Aliveness", poem: this.symphonyOfAliveness},
-            {id: "navigating-a-galaxy", img: "navigatingAGalaxy.jpg", title: "Navigating a Galaxy", poem: this.navigatingAGalaxy},
-            {id: "sheep-roam", img: "sheepRoam.jpg", title: "Sheep Roam", poem: this.sheepRoam},
-            {id: "the-quiet-tree", img: "theQuietTree.jpg", title: "The Quiet Tree", poem: this.theQuietTree},
-            {id: "water-keeps-calm", img: "waterKeepsCalm.jpg", title: "Water Keeps Calm", poem: this.waterKeepsCalm},
-            {id: "winters-thaw", img: "wintersThaw.jpg", title: "Winter's Thaw", poem: this.wintersThaw},
-            {id: "dive-headlong", img: "diveHeadlong.jpg", title: "Dive Headlong", poem: this.diveHeadlong},
-            {id: "toward-the-distant-mountain", img: "towardTheDistantMountain.jpg", title: "Toward the Distant Mountain", poem: this.towardTheDistantMountain},
-            {id: "washes-clean-the-past", img: "washesCleanThePast.jpg", title: "Washes Clean the Past", poem: this.washesCleanThePast},
-            {id: "near-to-the-canyon", img: "nearToTheCanyon.jpg", title: "Near to the Canyon", poem: this.nearToTheCanyon},
-            {id: "wandering-winds", img: "wanderingWinds.jpg", title: "Wandering Winds", poem: this.wanderingWinds},
-            {id: "desert-idaho", img: "desertIdaho.jpg", title: "Desert Idaho", poem: this.desertIdaho},
-            {id: "even-the-truest", img: "evenTheTruest.jpg", title: "Even the Truest", poem: this.evenTheTruest},
-            {id: "trust-love", img: "trustLove.jpg", title: "Trust Love", poem: this.trustLove},
-            {id: "news-swirls", img: "newsSwirls.jpg", title: "News Swirls", poem: this.newsSwirls},
-            {id: "as-you-move-boldly", img: "asYouMoveBoldly.jpg", title: "As You Move Boldly", poem: this.asYouMoveBoldly},
-            {id: "duty-to-adventure", img: "dutyToAdventure.jpg", title: "Duty to Adventure", poem: this.dutyToAdventure},
-        ]
+        let data =
+            [
+                { id: "national-empire", img: "nationalEmpire.jpg", title: "National Empire", poem: this.nationalEmpire },
+                { id: "sans-anesthesia", img: "sansAnesthesia.jpg", title: "Sans Anesthesia", poem: this.sansAnesthesia },
+                { id: "missteps-of-good-intentions", img: "misstepsOfGoodIntentions.jpg", title: "Missteps of Good Intentions", poem: this.misstepsOfGoodIntentions },
+                { id: "false-horizon", img: "falseHorizon.jpg", title: "False Horizon", poem: this.falseHorizon },
+                { id: "here-before", img: "hereBefore.jpg", title: "Here Before", poem: this.hereBefore },
+                { id: "to-care", img: "toCare.jpg", title: "To Care", poem: this.toCare },
+                { id: "chaos-of-ripples", img: "chaosOfRipples.jpg", title: "Chaos of Ripples", poem: this.chaosOfRipples },
+                { id: "crippled-in-spirit", img: "crippledInSpirit.jpg", title: "Crippled in Spirit", poem: this.crippledInSpirit },
+                { id: "primordial-routine", img: "primordialRoutine.jpg", title: "Primordial Routine", poem: this.primordialRoutine },
+                { id: "a-beautiful-life", img: "aBeautifulLife.jpg", title: "A Beautiful Life", poem: this.aBeautifulLife },
+                { id: "question-time", img: "questionTime.jpg", title: "Question Time", poem: this.questionTime },
+                { id: "flaubertian-struggle", img: "flaubertianStruggle.jpg", title: "Flaubertian Struggle", poem: this.flaubertianStruggle },
+                { id: "social-amnesia", img: "socialAmnesia.jpg", title: "Social Amnesia", poem: this.socialAmnesia },
+                { id: "past-present", img: "pastPresent.jpg", title: "Past Present", poem: this.pastPresent },
+                { id: "tyranny-afoot", img: "tyrannyAfoot.jpg", title: "Tyranny Afoot", poem: this.tyrannyAfoot },
+                { id: "my-grandfathers-shop", img: "myGrandfathersShop.jpg", title: "My Grandfather's Shop", poem: this.myGrandfathersShop },
+                { id: "trespass-in-its-resplendence", img: "trespassInItsResplendence.jpg", title: "Trespass in its Resplendence", poem: this.trespassInItsResplendence },
+                { id: "its-a-choice-to-be-kind", img: "itsAChoiceToBeKind.jpg", title: "It's a Choice to be Kind", poem: this.itsAChoiceToBeKind },
+                { id: "a-man-of-courage", img: "aManOfCourage.jpg", title: "A Man of Courage", poem: this.aManOfCourage },
+                { id: "began-to-drift", img: "beganToDrift.jpg", title: "Began to Drift", poem: this.beganToDrift },
+                { id: "symphony-of-aliveness", img: "symphonyOfAliveness.jpg", title: "Symphony of Aliveness", poem: this.symphonyOfAliveness },
+                { id: "navigating-a-galaxy", img: "navigatingAGalaxy.jpg", title: "Navigating a Galaxy", poem: this.navigatingAGalaxy },
+                { id: "sheep-roam", img: "sheepRoam.jpg", title: "Sheep Roam", poem: this.sheepRoam },
+                { id: "the-quiet-tree", img: "theQuietTree.jpg", title: "The Quiet Tree", poem: this.theQuietTree },
+                { id: "water-keeps-calm", img: "waterKeepsCalm.jpg", title: "Water Keeps Calm", poem: this.waterKeepsCalm },
+                { id: "winters-thaw", img: "wintersThaw.jpg", title: "Winter's Thaw", poem: this.wintersThaw },
+                { id: "dive-headlong", img: "diveHeadlong.jpg", title: "Dive Headlong", poem: this.diveHeadlong },
+                { id: "toward-the-distant-mountain", img: "towardTheDistantMountain.jpg", title: "Toward the Distant Mountain", poem: this.towardTheDistantMountain },
+                { id: "washes-clean-the-past", img: "washesCleanThePast.jpg", title: "Washes Clean the Past", poem: this.washesCleanThePast },
+                { id: "near-to-the-canyon", img: "nearToTheCanyon.jpg", title: "Near to the Canyon", poem: this.nearToTheCanyon },
+                { id: "wandering-winds", img: "wanderingWinds.jpg", title: "Wandering Winds", poem: this.wanderingWinds },
+                { id: "desert-idaho", img: "desertIdaho.jpg", title: "Desert Idaho", poem: this.desertIdaho },
+                { id: "even-the-truest", img: "evenTheTruest.jpg", title: "Even the Truest", poem: this.evenTheTruest },
+                { id: "trust-love", img: "trustLove.jpg", title: "Trust Love", poem: this.trustLove },
+                { id: "news-swirls", img: "newsSwirls.jpg", title: "News Swirls", poem: this.newsSwirls },
+                { id: "as-you-move-boldly", img: "asYouMoveBoldly.jpg", title: "As You Move Boldly", poem: this.asYouMoveBoldly },
+                { id: "duty-to-adventure", img: "dutyToAdventure.jpg", title: "Duty to Adventure", poem: this.dutyToAdventure }
+            ]
         return data
     }
 }
