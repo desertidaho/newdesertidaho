@@ -29,7 +29,7 @@ export default class Poems {
                               </p>
                           </div>
                           <div class="modal-footer">
-                              <a href="https://www.amazon.com/Desert-Idaho-Inspired-Nature-Philosophy-ebook-dp-B07MGPR5ZM/dp/B07MGPR5ZM/ref=mt_kindle?_encoding=UTF8&me=&qid="
+                              <a href="https://www.amazon.com/gp/product/1792611633"
                                   target="_blank">
                                   <button type="button" class="btn btn-warning shadow amazon-btn px-3">
                                       Buy on<i class="ml-2 fab fa-1x fa-amazon"></i>
