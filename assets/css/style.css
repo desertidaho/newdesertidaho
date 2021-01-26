@@ -243,6 +243,8 @@ footer {
 
   #top-title-subtitle {
     background-color: white;
+    margin: 0px 0px !important;
+    padding: 0px 0px !important;
   }
 
   .title {
@@ -349,6 +351,11 @@ footer {
 
   footer {
     min-width: 100vw;
+  }
+
+  footer div {
+    margin: 0px 0px !important;
+    padding: 0px 0px !important;
   }
 
 }
