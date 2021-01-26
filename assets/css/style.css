@@ -172,7 +172,6 @@ input {
 footer {
   background-color: black;
   min-width: 100vw !important;
-  /* margin-left: -2vw; */
 }
 
 @media (max-width: 1050px) and (min-width: 701px) {
@@ -321,7 +320,6 @@ footer {
 
   footer {
     min-width: 100vw;
-    margin-left: -4vw;
   }
 
 }
