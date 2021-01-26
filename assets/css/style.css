@@ -186,6 +186,15 @@ footer {
   min-width: 100vw !important;
 }
 
+.page-2-header {
+  margin: 0px 0px 40px 0px !important;
+  padding: 0px 0px !important;
+}
+
+.page-2-title {
+  padding-bottom: 2rem !important;
+}
+
 @media (max-width: 1050px) and (min-width: 701px) {
 
   #top-title-subtitle {
@@ -357,5 +366,14 @@ footer {
     margin: 0px 0px !important;
     padding: 0px 0px !important;
   }
+
+  .page-2-header {
+    margin: 0px 0px !important;
+    padding: 0px 0px !important;
+  }
+
+  .page-2-title {
+    padding-bottom: 0rem !important;
+  } 
 
 }
