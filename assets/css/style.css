@@ -5,8 +5,6 @@ body {
   overflow-x: hidden !important;
   min-width: 100vw !important;
   padding: 0px 0px !important;
-  margin: -25px 0px !important;
-  width: 95vw !important;
 }
 
 #top-title-subtitle {
@@ -103,7 +101,8 @@ body {
 .card-columns {
   column-count: 5;
   margin: 0px 0px !important;
-  padding: 0px 15px !important;
+  margin-left: -0.5rem !important;
+  padding: 0px 2rem !important;
 }
 
 .card {
@@ -122,6 +121,10 @@ body {
   min-width: 100% !important;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px ;
+}
+
+.modal {
+  margin-left: 0.6rem !important;
 }
 
 .modal-title,
@@ -332,6 +335,7 @@ footer {
 
   .card-columns {
     column-count: 1;
+    margin-left: 0rem !important;
   }
 
   .modal {
