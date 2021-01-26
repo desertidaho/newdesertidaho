@@ -9,7 +9,6 @@ export default class Poems {
       template += `
       <a data-toggle="modal" data-target="#${this.poemsArray[i].id}">
         <div class="card border-secondary shadow">
-          
           <div class="card-body">
               <h4 class="card-title text-center mt-3">${this.poemsArray[i].title}</h4>
               <img class="card-img-bottom mt-1" src="assets/img/${this.poemsArray[i].img}" alt="Card image cap">
@@ -51,6 +50,7 @@ export default class Poems {
       </a>
       `
     }
+
     return template
   }
 
