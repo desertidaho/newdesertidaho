@@ -1,12 +1,11 @@
 body {
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
   font-style: oblique;
-  overflow-x: hidden;
   color: #2d2d2e !important;
-  margin-top: -3.5vh;
   overflow-x: hidden !important;
   min-width: 100vw !important;
-  padding-left: 0px !important;
+  padding: 0px 0px !important;
+  margin: -25px 0px !important;
 }
 
 #top-title-subtitle {
@@ -97,6 +96,8 @@ body {
 
 .card-columns {
   column-count: 5;
+  margin: 0px 0px !important;
+  padding: 0px 15px !important;
 }
 
 .card {
@@ -314,10 +315,11 @@ footer {
   .pagination-title {
     font-size: 0.8rem;
   }
-
+/* 
   #arrow {
-    margin: 2rem 1rem 0 0 !important;
-  }
+    margin: 0px !important;
+    padding-left: 40px !important;
+  } */
 
   .footer-icons {
     size: 20% !important;
