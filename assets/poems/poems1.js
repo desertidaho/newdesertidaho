@@ -51,7 +51,8 @@ export default class Poems1 {
     From those that lived before us. </br>
     Bitcoin provides hope for a better future! </br>
     This scarce and beautiful digital money </br>
-    Removes the root source of their despotic power— supply. </br>
+    Removes the root source of their despotic power— </br>
+    The ability for a [not] trusted few to control the money supply. </br>
     A just society requires not using fiat fake money! </br>
     End the madness of vile centralized banking— </br>
     Fewer bombs will drop from the sky. </br>
