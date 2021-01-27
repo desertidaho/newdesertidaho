@@ -55,7 +55,6 @@
     <!--insert poem cards here-->
   </div>
 
-
   <!--Pagination-->
   <div class="col-sm-12 d-flex justify-content-center mt-5 pb-4 padding2">
     <div class="pagination mt-5">
@@ -75,8 +74,8 @@
             class="far fa-envelope fa-3x footer-icons ml-4"></i></a>
       </div>
       <!--Up arrow-->
-      <div class="col-sm-12 d-flex justify-content-end mb-4">
-        <a href="#top" id="arrow" class="fa mr-4 mt-5"></a>
+      <div class="col-sm-12 d-flex justify-content-center mt-5 mb-4">
+        <a href="#top" id="arrow" class="fa"></a>
       </div>
       <div class="col d-flex justify-content-center pt-5 pb-3">
         <p class="text-white copyright">&copy 2021 BRETT WILCOX</p>
@@ -102,14 +101,11 @@
     function downArrow() {
       let chain = document.getElementById('down-arrow');
       chain.innerHTML = "&#xf107;";
-
       setTimeout(function () {
         chain.innerHTML = "&#xf103;";
       }, 1000);
     }
-
     downArrow();
-
     // Animate Every 2 Seconds
     setInterval(downArrow, 2000);
   </script>
@@ -119,14 +115,11 @@
     function upArrow() {
       let chain = document.getElementById('arrow');
       chain.innerHTML = "&#xf102;";
-
       setTimeout(function () {
         chain.innerHTML = "&#xf106;";
       }, 1000);
     }
-
     upArrow();
-
     // Animate Every 2 Seconds
     setInterval(upArrow, 2000);
   </script>

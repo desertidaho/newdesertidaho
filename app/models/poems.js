@@ -50,7 +50,6 @@ export default class Poems {
       </a>
       `
     }
-
     return template
   }
 
