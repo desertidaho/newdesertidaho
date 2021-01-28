@@ -285,9 +285,7 @@ footer {
   div .parallax-img {
      background-image: url(../img/transparent-sun.png) !important;
      z-index: 1 !important;
-     background-attachment: initial !important;
-     display: block !important;
-     background-position: 48% 28%;
+     background-position: 48% 55%;
      background-size: 55%;
   }
 
