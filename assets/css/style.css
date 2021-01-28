@@ -37,7 +37,7 @@ body {
   margin-top: 30vh;
 }
 
-.parrallax-img {
+.parallax-img {
   background-color: black;
   background-position: relative;
   background-position: 50% 68%;
@@ -226,7 +226,7 @@ footer {
     display: none;
   }
 
-  .parrallax-img {
+  .parallax-img {
      background-image: url(../img/transparent-sun.png) !important;
      z-index: 1 !important;
      background-attachment: initial !important;
@@ -266,7 +266,8 @@ footer {
   }
 
   header {
-    padding: 0px 0px !important;
+    padding: 0px 0px 0px 0px !important;
+    max-width: 100vw !important;
   }
 
   .info {
@@ -275,24 +276,24 @@ footer {
 
   #top-title-subtitle {
     background-color: black;
-    margin: 0px 0px !important;
-    padding: 0px 0px !important;
-    width: 100vw !important;
+    margin: 0px 0px 0px 0px !important;
+    padding: 0px 0px 0px 0px !important;
+    max-width: 100vw !important;
+    overflow-x: hidden !important;
   }
 
-  .parrallax-img {
+  div .parallax-img {
      background-image: url(../img/transparent-sun.png) !important;
      z-index: 1 !important;
      background-attachment: initial !important;
      display: block !important;
      background-position: 48% 28%;
      background-size: 55%;
-     
   }
 
   #parallax {
-    overflow-x: hidden !important;
-    object-fit: cover !important;
+    max-width: 100vw !important;
+    margin-left: 0px !important;
   }
 
   .title {
