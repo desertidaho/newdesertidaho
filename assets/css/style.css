@@ -224,7 +224,7 @@ footer {
 
   #down-arrow,
   .top-arrow {
-    margin: 23px 0px 0px 45vw !important;
+    margin: 43px 0px 0px 45vw !important;
     padding: 0px 0px 0px 0px !important;
     position: absolute !important;
   }
@@ -306,13 +306,7 @@ footer {
 
   #down-arrow,
   .top-arrow {
-    position: absolute !important;
-    overflow-x: hidden !important;
-  }
-
-  .page2downarrow {
-    margin: 40px 0px 0px 43vw !important;
-    padding: 0px 0px 0px 0px !important;
+    display: none !important;
   }
 
   .book {
