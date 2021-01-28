@@ -198,18 +198,26 @@ footer {
 
 @media (max-width: 1050px) and (min-width: 701px) {
 
+
+  header {
+    padding: 0px 0px !important;
+  }
+
   #top-title-subtitle {
-    background-color: white;
+    background-color: black;
+    margin: 0px 0px !important;
+    padding: 0px 0px !important;
+    width: 100vw !important;
   }
 
   .title {
-    color: black !important;
+    color: white !important;
     font-size: 1.9rem;
     margin-top: 2.5rem !important;
   }
 
   .sub-title {
-    color: black !important;
+    color: white !important;
     margin-top: 3.3rem !important;
     font-size: 1.3rem;
   }
@@ -219,7 +227,10 @@ footer {
   }
 
   .parrallax-img {
-    display: none !important;
+     background-image: url(../img/transparent-sun.png) !important;
+     z-index: 1 !important;
+     background-attachment: initial !important;
+     display: block !important;
   }
 
   .about-box {
@@ -251,6 +262,10 @@ footer {
     overflow-x: clip !important;
   }
 
+  header {
+    padding: 0px 0px !important;
+  }
+
   .info {
     padding-top: 2.3rem !important;
   }
@@ -260,11 +275,13 @@ footer {
     margin: 0px 0px !important;
     padding: 0px 0px !important;
     width: 100vw !important;
-    margin-left: -1rem !important;
   }
 
   .parrallax-img {
-    background-image: url(../img/transparent-sun.png);
+     background-image: url(../img/transparent-sun.png) !important;
+     z-index: 1 !important;
+     background-attachment: initial !important;
+     display: block !important;
   }
 
   .title {
