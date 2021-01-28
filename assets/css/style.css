@@ -231,6 +231,9 @@ footer {
      z-index: 1 !important;
      background-attachment: initial !important;
      display: block !important;
+     background-position: 50% 38%;
+     background-size: 45%;
+     padding: 0px 0px !important;
   }
 
   .about-box {
@@ -282,6 +285,14 @@ footer {
      z-index: 1 !important;
      background-attachment: initial !important;
      display: block !important;
+     background-position: 48% 28%;
+     background-size: 55%;
+     
+  }
+
+  #parallax {
+    overflow-x: hidden !important;
+    object-fit: cover !important;
   }
 
   .title {
