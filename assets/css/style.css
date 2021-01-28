@@ -231,6 +231,7 @@ footer {
      background-position: 50% 62%;
      background-size: 40%;
      padding: 0px 0px !important;
+     background-attachment: scroll;
   }
 
   .about-box {
@@ -281,8 +282,9 @@ footer {
 
   div .parallax-img {
      background-image: url(../img/transparent-sun.png) !important;
-     background-position: 48% 55%;
+     background-position: 48% 30%;
      background-size: 55%;
+     background-attachment: scroll;
   }
 
   #parallax {
