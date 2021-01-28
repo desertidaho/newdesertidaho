@@ -47,6 +47,7 @@ body {
   height: 90vh;
   background-image: url(../img/thesungiphy.gif);
   background-attachment: fixed;
+  animation-play-state: running;
 }
 
 .about-box {
@@ -260,6 +261,10 @@ footer {
     padding: 0px 0px !important;
     width: 100vw !important;
     margin-left: -1rem !important;
+  }
+
+  .parrallax-img {
+    background-image: url(../img/transparent-sun.png);
   }
 
   .title {
