@@ -250,29 +250,31 @@ footer {
     overflow-x: clip !important;
   }
 
+  .info {
+    padding-top: 2.3rem !important;
+  }
+
   #top-title-subtitle {
-    background-color: white;
+    background-color: black;
     margin: 0px 0px !important;
     padding: 0px 0px !important;
+    width: 100vw !important;
+    margin-left: -1rem !important;
   }
 
   .title {
-    color: black !important;
+    color: white !important;
     font-size: 1.5rem;
     margin-top: 2rem !important;
   }
 
   .sub-title {
-    color: black !important;
+    color: white !important;
     font-size: 0.8rem;
   }
 
   #down-arrow {
     display: none;
-  }
-
-  .parrallax-img {
-    display: none !important;
   }
 
    .book {
